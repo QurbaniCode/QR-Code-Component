@@ -9,6 +9,8 @@
         
         --color-background-stripe: #dce6f1;
 
+        --shadow-card: 0 25px 25px 0 rgba(0, 0, 0, 0.1);
+        
         /* Typography */   
         --font-family: "Outfit", sans-serif;
         
@@ -55,13 +57,13 @@ body {
 
 
 .card{
-    width: 320px;
-    max-width: calc(100%-32);
+    width: 20rem;
+    max-width: calc(100% - 32);
     padding: var(--space-200);
     /* height: 499px; */
     background-color: var(--color-white);
     border-radius: 20px;
-    box-shadow: 0 25px 25px 0 rgba(0,0, 0, 0.1);
+    box-shadow: var(--shadow-card);
 }
 
 .card img{
